@@ -33,9 +33,9 @@ while t < 15:
 	t += dt
 	coords.append([x, y, z])
 
-coords = np.array(coords)
-ax.plot3D(coords[:, 0], coords[:, 1], coords[:, 2], 'gray')
-plt.show()
+# coords = np.array(coords)
+# ax.plot3D(coords[:, 0], coords[:, 1], coords[:, 2], 'gray')
+# plt.show()
 
 
 
